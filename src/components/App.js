@@ -4,7 +4,9 @@ import ShoppingList from './ShoppingList'
 
 const App = () =>
     <div>
-        <Banner /><Cart /><ShoppingList />
+        <Banner />
+        <Cart />
+        <ShoppingList />
     </div>
 
 export default App
