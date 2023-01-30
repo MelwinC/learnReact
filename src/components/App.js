@@ -1,8 +1,10 @@
 import Banner from './Banner'
 import Cart from './Cart'
-import React from 'react'
-import ReactDOM from 'react-dom'
+import ShoppingList from './ShoppingList'
 
-const App = () => ReactDOM.render(<div><Banner /><Cart /></div>, document.getElementById("root"))
+const App = () =>
+    <div>
+        <Banner /><Cart /><ShoppingList />
+    </div>
 
 export default App
