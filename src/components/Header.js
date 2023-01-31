@@ -1,5 +1,3 @@
-const titre = "la maison jungle"
-// arrow function
-const Header = () => <h1>{titre.toUpperCase()}</h1>
+const Header = () => <h1>La maison jungle</h1>
 
 export default Header
